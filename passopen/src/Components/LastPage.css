@@ -1,0 +1,98 @@
+.Last-page-container{
+    /* text-align: center; */
+    background-color: #EAF1FD;
+}
+.Heading-of-last-page{
+    /* width: 60rem; */
+    margin: 0 auto;
+    padding-top: 4rem;
+    
+    
+    
+}
+.Heading-of-last-page h1{
+    font-size: 50px;
+    text-align: center;
+    width: 846px;
+    padding-left: 167px;
+}
+.box-1-of-last-page{
+ display: flex;
+ flex-direction: column;
+}
+
+.containent-of-last-page{
+    margin: 0 auto;
+    /* width: 59rem; */
+    font-size: 1.4rem;
+    line-height: 34px;
+    color:#737373;
+    padding-bottom: 50px;
+}
+.containent-of-last-page p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 183px;
+  padding-right: 204px;
+}
+
+.img-box{
+    margin: 0 auto;
+    padding-bottom: 6rem;
+
+}
+
+.img-box img{
+    /* width: 50px; */
+    padding-top: 10px;
+
+}
+
+@media screen and   (max-width:500px){
+    .Last-page-container{
+        text-align: center;
+        background-color: #EAF1FD;
+        position: relative;
+        top:650px;
+        height: 960px;
+    }
+    .Heading-of-last-page h1 {
+        font-size: 27px;
+    text-align: center;
+    width: 400px;
+    padding-left: 0px
+        
+      }
+    .box-1-of-last-page{
+
+    }
+    .containent-of-last-page p{
+        padding-left: 0px;
+        padding-right: 15px;
+        text-align: center;
+        position: absolute;
+        left: 9px;
+        padding-top: 250px;
+        font-size: 20px;
+
+    }
+    .containent-of-last-page{
+        position:relative;
+        width: 100%;
+        
+    }
+    .secondPara{
+        position: absolute;
+        top:270px;
+    }
+    .img-box{
+     position: absolute;
+     /* text-align: center;
+     margin: 0px auto; */
+     left: 37px;
+     padding-top: 30px;
+    }
+    .img-box img{
+     height:180px;
+    }
+}
