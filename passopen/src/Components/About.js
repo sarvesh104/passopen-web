@@ -24,7 +24,7 @@ const AboutContainer = styled(Container)`
 .About-img{
   height:268px;
   padding-top: 116px;
-  padding-right: 101px;
+  
 }
 
 

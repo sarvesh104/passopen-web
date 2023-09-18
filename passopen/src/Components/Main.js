@@ -6,6 +6,7 @@ import bgi from "../Images/HeroPageBackgroundImg.png";
 
 const Main = () => {
   return (
+    
     <div style={{backgroundImage:`url(${bgi})`, backgroundPosition:"center", backgroundSize:"cover",backgroundRepeat:"no-repeat",width:"100%", zIndex:"0" ,height:"600px"}}>
       <HeroContainer 
       //  sx={{backgroundImage:`url(${bgi})`, backgroundPosition:"center", backgroundSize:"cover",backgroundRepeat:"no-repeat",width:"100%"}}
